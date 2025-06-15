@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0077cc;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background-color: #ffcc00;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero h1 {
+            color: #333;
+        }
+        .hero p {
+            color: #555;
+        }
+        .btn {
+            background-color: #ff5733;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Colors for Education Page */
+        .school-section {
+            background-color: #cce5ff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .college-section {
+            background-color: #d4edda;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .campus-section {
+            background-color: #fff3cd;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .university-section {
+            background-color: #f8d7da;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="about/about.html" style="color: #ffcc00;">About</a></li>
+                <li><a href="education/education.html" style="color: #ff5733;">Education</a></li>
+                <li><a href="contact/contact.html" style="color: #33cc33;">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to My Personal Website</h1>
+        <img src="images/profile.jpg" alt="Profile Photo" class="profile-photo">
+        <p>Hello! My name is Kamal Koirala. Explore my journey, education, and ways to connect with me.</p>
+        <a href="about/about.html" class="btn">Learn More</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kamal Koirala. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

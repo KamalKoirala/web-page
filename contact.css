@@ -1,0 +1,165 @@
+/* Header Background */
+header {
+    background-color: #4CAF50; /* Green background for the header */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white; /* White text for "Your Website Name" */
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: white; /* White text for "Welcome to my personal website!" */
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Navigation Background */
+header nav {
+    background-color: #333; /* Dark background for the navigation */
+    padding: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white; /* White text for navigation links */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #4CAF50; /* Green color on hover for navigation links */
+}
+
+/* Contact Information Section Background */
+.contact-info {
+    background-color: #f9f9f9; /* Light gray background for contact info */
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info h2 {
+    color: #333; /* Dark text for the heading */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-card {
+    background-color: white; /* White background for each contact card */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card h3 {
+    color: #4CAF50; /* Green text for card headings */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-card p {
+    color: #666; /* Gray text for card descriptions */
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.contact-card a {
+    color: #0077cc; /* Blue text for links */
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.contact-card a:hover {
+    color: #005fa3; /* Darker blue on hover */
+}
+
+/* Message Form Section Background */
+.message-form {
+    background-color: #e3f2fd; /* Light blue background for the form section */
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.message-form h2 {
+    color: #0077cc; /* Blue text for the heading */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.message-form form {
+    background-color: white; /* White background for the form */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+}
+
+.message-form label {
+    color: #333; /* Dark text for labels */
+    font-size: 16px;
+}
+
+.message-form input,
+.message-form textarea {
+    background-color: #f9f9f9; /* Light gray background for inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.message-form button {
+    background-color: #0077cc; /* Blue background for the button */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.message-form button:hover {
+    background-color: #005fa3; /* Darker blue on hover */
+}
+
+/* Footer Background */
+footer {
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* White text for the footer */
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

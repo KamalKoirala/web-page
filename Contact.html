@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="k.css">
+    <!-- <link rel="js" href="script.js"> -->
+    <link rel="js" href="Contact.js"
+</head>
+<body>
+    <header>
+        <h1>Kamal koirala</h1>
+        <p>Welcome to my personal website!</p>
+    </header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Education.html">Education</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                 <li><a href="About.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <div class="contact-container">
+            <!-- Facebook -->
+            <div class="contact-card">
+         
+                <h3>Facebook</h3>
+                <p>Connect with me on Facebook.</p>
+                <a href="https://www.facebook.com/profile.php?id=100070035767632" target="_blank">Visit Profile</a>
+            </div>
+
+            <!-- Instagram -->
+            <div class="contact-card">
+
+                <h3>Instagram</h3>
+                <p>Follow me on Instagram.</p>
+                <a href="https://www.instagram.com/koiralakamal807/" target="_blank">Visit Profile</a>
+            </div>
+
+            <!-- Twitter -->
+            <div class="contact-card">
+                
+                <h3>Twitter</h3>
+                <p>Follow me on Twitter.</p>
+                <a href="https://www.twitter.com/yourprofile" target="_blank">Visit Profile</a>
+            </div>
+
+            <!-- Email -->
+            <div class="contact-card">
+                <img src="../images/email-icon.png" alt="Email Icon">
+                <h3>Email</h3>
+                <p>Reach out to me via email.</p>
+                <a href="kamalkoirala807@gmail.com">Send Email</a>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-card">
+                >
+                <h3>Phone</h3>
+                <p>Call me for inquiries.</p>
+                <a href="tel:+977-9746478542">+977-9746478542</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Message Form Section -->
+    <section class="message-form">
+        <h2>Send Me a Message</h2>
+        <!-- <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form> -->
+        <form action="/send-message" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
